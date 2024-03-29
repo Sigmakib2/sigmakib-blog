@@ -7,13 +7,13 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
+  title: 'The Sigmakib Blog',
   subtitle: 'Demo Site',
   lang: 'en',
   themeHue: 250,
   banner: {
     enable: false,
-    src: 'assets/images/sigmakib.jpg',
+    src: 'assets/images/demo-banner.png',
   },
 }
 
@@ -31,9 +31,9 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/sigmakib.jpg',
+  name: 'Sakib Mahmud',
+  bio: 'Hello there! ',
   links: [
     {
       name: 'Twitter',
