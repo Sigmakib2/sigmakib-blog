@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'The Sigmakib Blog',
-  subtitle: 'Demo Site',
+  subtitle: 'DevDiaries by Sigmakib',
   lang: 'en',
   themeHue: 250,
   banner: {
@@ -33,28 +33,28 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/sigmakib.jpg',
   name: 'Sakib Mahmud',
-  bio: 'Hello there! ',
+  bio: 'Welcome to The Sigmakib Blog! Here, I share my personal projects. Dive into insightful articles, tutorials and more.',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      url: 'https://twitter.com/sigmakib',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Facebook',
+      icon: 'fa6-brands:facebook',
+      url: 'https://www.facebook.com/sakib.mahmud.9022',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/Sigmakib2',
     },
   ],
 }
 
 export const licenseConfig: LicenseConfig = {
-  enable: true,
+  enable: false,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 }
